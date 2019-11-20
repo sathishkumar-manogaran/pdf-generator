@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: PDFGenerator
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+server:
+  servlet:
+    context-path: /pdf
+  port: 8080
